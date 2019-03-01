@@ -1,9 +1,12 @@
 import { createDrawerNavigator, createAppContainer } from 'react-navigation';
 import { Dimensions } from 'react-native';
-import { InfoScreen, ShareScreen, VideoScreen, BottomSheet } from './src/screens/Index';
+import { InfoScreen, ShareScreen, VideoScreen, BottomSheet, BleScreen } from './src/screens/Index';
 
 
 const Drawer = createDrawerNavigator({
+  Ble: {
+    screen: BleScreen
+  },
   Bottom: {
     screen: BottomSheet
   },
