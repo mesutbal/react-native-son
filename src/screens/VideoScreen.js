@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import VideoPlayer from 'react-native-video-controls';
+//import VideoPlayer from 'react-native-video-controls';
+import  { WebView } from 'react-native-webview';
 
 
 class VideoScreen extends React.Component {
@@ -10,9 +11,19 @@ class VideoScreen extends React.Component {
 
     render() {
         return (<View style={{ flex: 1 }}>
-            <VideoPlayer
+            {/* <VideoPlayer
                 style={styles.backgroundVideo}
                 source={{ uri: 'http://techslides.com/demos/sample-videos/small.mp4' }} 
+                onEnterFullScreen={() => { console.log('onEnterFullScreen'); }}
+                onExitFullScreen={() => { console.log('onExitFullScreen'); }}
+                onError={() => { console.log('onError'); }}
+                onPause={() => { console.log('onPause'); }}
+                onPlay={() => { console.log('onPlay'); }}
+                onBack={() => { console.log('onBack'); }}
+            /> */}
+            <WebView
+               style={{ flex:1 }}
+               source={{ uri: 'http://techslides.com/demos/sample-videos/small.mp4' }}
             />
         </View>);
     }
