@@ -62,6 +62,7 @@
 		FC1112EE61054C2FA2DB1347 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0705EA2B09D9483588F92BA1 /* SimpleLineIcons.ttf */; };
 		0C626FE4706140278E325150 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8F3AA74DB554ABFA4D09FFF /* Zocial.ttf */; };
 		87754DFAAC34446CB04C9B3F /* libRNBottomActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 314F80D9B82447C6BDE47893 /* libRNBottomActionSheet.a */; };
+		7946DF3A340A48BEBD443538 /* libBleManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D90136D3CA1540D4AB85B6A6 /* libBleManager.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -398,6 +399,8 @@
 		D8F3AA74DB554ABFA4D09FFF /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		1BF2E74B2EF542C78D54F517 /* RNBottomActionSheet.xcodeproj */ = {isa = PBXFileReference; name = "RNBottomActionSheet.xcodeproj"; path = "../node_modules/react-native-bottom-action-sheet/ios/RNBottomActionSheet.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		314F80D9B82447C6BDE47893 /* libRNBottomActionSheet.a */ = {isa = PBXFileReference; name = "libRNBottomActionSheet.a"; path = "libRNBottomActionSheet.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		948C801EFFC5459D837DB03B /* BleManager.xcodeproj */ = {isa = PBXFileReference; name = "BleManager.xcodeproj"; path = "../node_modules/react-native-ble-manager/ios/BleManager.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		D90136D3CA1540D4AB85B6A6 /* libBleManager.a */ = {isa = PBXFileReference; name = "libBleManager.a"; path = "libBleManager.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -432,6 +435,7 @@
 				DC3335C237F3427D88561903 /* libRNCWebView.a in Frameworks */,
 				761475A81ED34F3891EC4BB1 /* libRNVectorIcons.a in Frameworks */,
 				87754DFAAC34446CB04C9B3F /* libRNBottomActionSheet.a in Frameworks */,
+				7946DF3A340A48BEBD443538 /* libBleManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,6 +633,7 @@
 				3D9B39BB1F8C4222BFCF1278 /* RNCWebView.xcodeproj */,
 				D99B7AF955084093A2453FB9 /* RNVectorIcons.xcodeproj */,
 				1BF2E74B2EF542C78D54F517 /* RNBottomActionSheet.xcodeproj */,
+				948C801EFFC5459D837DB03B /* BleManager.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -1303,6 +1308,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1312,6 +1318,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-webview\ios",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-bottom-action-sheet\ios",
+					"$(SRCROOT)\..\node_modules\react-native-ble-manager\ios",
 				);
 			};
 			name = Debug;
@@ -1341,6 +1348,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1350,6 +1358,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-webview\ios",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-bottom-action-sheet\ios",
+					"$(SRCROOT)\..\node_modules\react-native-ble-manager\ios",
 				);
 			};
 			name = Release;
@@ -1378,6 +1387,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-webview\ios",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-bottom-action-sheet\ios",
+					"$(SRCROOT)\..\node_modules\react-native-ble-manager\ios",
 				);
 			};
 			name = Debug;
@@ -1405,6 +1415,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-webview\ios",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-bottom-action-sheet\ios",
+					"$(SRCROOT)\..\node_modules\react-native-ble-manager\ios",
 				);
 			};
 			name = Release;
@@ -1442,6 +1453,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1451,6 +1463,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-webview\ios",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-bottom-action-sheet\ios",
+					"$(SRCROOT)\..\node_modules\react-native-ble-manager\ios",
 				);
 			};
 			name = Debug;
@@ -1488,6 +1501,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1497,6 +1511,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-webview\ios",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-bottom-action-sheet\ios",
+					"$(SRCROOT)\..\node_modules\react-native-ble-manager\ios",
 				);
 			};
 			name = Release;
@@ -1533,6 +1548,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1542,6 +1558,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-webview\ios",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-bottom-action-sheet\ios",
+					"$(SRCROOT)\..\node_modules\react-native-ble-manager\ios",
 				);
 			};
 			name = Debug;
@@ -1578,6 +1595,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1587,6 +1605,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-webview\ios",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-bottom-action-sheet\ios",
+					"$(SRCROOT)\..\node_modules\react-native-ble-manager\ios",
 				);
 			};
 			name = Release;

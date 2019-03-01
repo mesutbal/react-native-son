@@ -140,6 +140,7 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-ble-manager')
     implementation project(':react-native-bottom-action-sheet')
     implementation project(':react-native-vector-icons')
     implementation project(':react-native-webview')
