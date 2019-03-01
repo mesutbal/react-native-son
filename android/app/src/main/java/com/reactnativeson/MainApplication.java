@@ -3,6 +3,8 @@ package com.reactnativeson;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import ui.bottomactionsheet.RNBottomActionSheetPackage;
+import com.oblador.vectoricons.VectorIconsPackage;
 import com.reactnativecommunity.webview.RNCWebViewPackage;
 import com.brentvatne.react.ReactVideoPackage;
 import com.learnium.RNDeviceInfo.RNDeviceInfo;
@@ -27,6 +29,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RNBottomActionSheetPackage(),
+            new VectorIconsPackage(),
             new RNCWebViewPackage(),
             new ReactVideoPackage(),
             new RNDeviceInfo(),
